@@ -4,15 +4,16 @@
     "url": "http://www2.aomeisoftware.com/download/pacn/PAGreen.zip",
     "homepage": "https://www.disktool.cn",
     "extract_dir": "Partition-Assistant-8.3",
+    "license": "unknown",
     "bin":[
         [
-            "PAGreen.exe",
+            "PartAssist.exe",
             "partition"
         ]
     ],
     "shortcuts": [
         [
-            "PAGreen.exe",
+            "PartAssist.exe",
             "PartitionAssistant"
         ]
     ],
