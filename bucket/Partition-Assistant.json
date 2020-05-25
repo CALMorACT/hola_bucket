@@ -3,7 +3,7 @@
     "description": "Easy-to-use Partition Software and Safe Disk Manager",
     "url": "http://www2.aomeisoftware.com/download/pacn/PAGreen.zip",
     "homepage": "https://www.disktool.cn",
-    "extract_dir": "Partition-Assistant-8.3",
+    "extract_to": "",
     "license": "unknown",
     "bin":[
         [
@@ -23,7 +23,7 @@
     },
     "autoupdate": {
         "url": "http://www2.aomeisoftware.com/download/pacn/PAGreen.zip",
-        "extract_dir": "Partition-Assistant-$version"
+        "extract_dir": ""
     },
     "notes":[
         "This software is free only in China.",
