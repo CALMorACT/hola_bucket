@@ -1,0 +1,37 @@
+{
+    "version": "1.6.0",
+    "homepage":"http://irreader.fatecore.com/",
+    "url":"http://irreader.fatecore.com/download/irreader-1.6.0.zip",
+    "extract_dir": "1.6.0",
+    "pre_install":[
+        "Expand-Archive -Path \"$dir/irreader-$version.zip\"",
+        "Move-Item \"$dir/irreader-$version/*/*.exe\" \"$dir/irreader Setup.exe\"",
+        "Remove-Item \"$dir/irreader-$version\""
+    ],
+    "installer": {
+        "file": "$dir/irreader Setup.exe",
+        "keep": false
+    },
+    "uninstaller": {
+        "file": "Uninstall irreader.exe"
+    },
+    "bin":[
+        [
+            "irreader.exe",
+            "irreader"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "irreader.exe",
+            "irreader"
+        ]
+    ],
+    "checkver":{
+        "url": "http://irreader.fatecore.com/",
+        "re": "irreader\\s*v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://irreader.fatecore.com/download/irreader-$version.zip"
+    }
+}
