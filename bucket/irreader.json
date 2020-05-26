@@ -3,7 +3,7 @@
     "homepage":"http://irreader.fatecore.com/",
     "url":"http://irreader.fatecore.com/download/irreader-1.6.0.zip",
     "pre_install":[
-        "Expand-Archive -Path \"$dir/irreader-$version.zip\"",
+        "Expand-Archive -Path \"$dir/irreader-$version.zip\" -Force",
         "Move-Item \"$dir/irreader-$version/*/*.exe\" \"$dir/irreader Setup.exe\"",
         "Remove-Item \"$dir/irreader-$version\""
     ],
