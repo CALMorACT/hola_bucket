@@ -4,7 +4,7 @@
     "description": "Multi-platform hosts modifications",
     "license": "unknown",
     "extract_dir": "UsbEAm Hosts Editor",
-    "post_install":[
+    "pre_install":[
         "get-childItem \"$dir\" *.exe | rename-item -newname \"UsbEAmHostsEditor.exe\""
     ],
     "bin": [["UsbEAmHostsEditor.exe", "UHeditor"]],
