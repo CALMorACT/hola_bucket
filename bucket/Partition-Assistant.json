@@ -3,6 +3,7 @@
     "description": "Easy-to-use Partition Software and Safe Disk Manager",
     "url": "http://www2.aomeisoftware.com/download/pacn/PAGreen.zip",
     "homepage": "https://www.disktool.cn",
+    "hash":"",
     "extract_dir": "PA_Green",
     "license": "unknown",
     "bin":[
@@ -11,6 +12,7 @@
             "partition"
         ]
     ],
+    "persist":"usecode.ini",
     "shortcuts": [
         [
             "PartAssist.exe",
