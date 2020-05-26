@@ -4,7 +4,10 @@
     "description": "Multi-platform hosts modifications",
     "license": "unknown",
     "extract_dir": "UsbEAm Hosts Editor",
-    "bin": [["UsbEAm Hosts Editor v$version.exe", "UHeditor"]],
+    "post_install":[
+        "get-childItem \"$dir\" *.exe | rename-item -newname \"UsbEAmHostsEditor.exe\""
+    ],
+    "bin": [["UsbEAmHostsEditor.exe", "UHeditor"]],
     "checkver": {
         "url": "https://www.dogfight360.com/blog/475/",
         "re": "UsbEAm Hosts Editor\\s+v([\\d.]+)"
