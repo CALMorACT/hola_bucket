@@ -5,12 +5,12 @@
     "description": "Simple, powerful and efficient multi-platform subtitling software",
     "architecture": {
         "64bit": {
-            "url": "https://t.arctime.cn/ap2w64",
+            "url": "https://t.arctime.cn/ap2w64/#dl.rar",
             "hash": "bd6c3fe7a0a0357a0186b3f74b011c776c1d3f2af1b5c81b24ce885cd9ec2eb2",
             "extract_dir": "ARCTIME_PRO_2.4_WIN64"
         },
         "32bit": {
-            "url": "https://t.arctime.cn/ap2w",
+            "url": "https://t.arctime.cn/ap2w/#dl.rar",
             "hash": "39a4ad31cace258d6a45f51b056f39753cd6dafa17d83acdaa4abe98aacdea4e",
             "extract_dir": "ARCTIME_PRO_2.4_WIN32"
         }

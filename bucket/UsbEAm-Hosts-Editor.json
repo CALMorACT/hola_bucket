@@ -3,6 +3,7 @@
     "url": "https://www.dogfight360.com/blog/wp-content/uploads/2017/03/UsbEAm-Hosts-Editor-v3.50.zip",
     "description": "Multi-platform hosts modifications",
     "license": "unknown",
+    "hash": "2def3989a6d4f9736535fd57d938f35c9b22bce11613ffd4b5a0189f11d99d99",
     "extract_dir": "UsbEAm Hosts Editor",
     "pre_install":[
         "get-childItem \"$dir\" *.exe | rename-item -newname \"UsbEAmHostsEditor.exe\""
