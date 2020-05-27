@@ -1,0 +1,39 @@
+{
+    "version": "2.4",
+    "homepage": "https://arctime.org/",
+    "license": "unknown",
+    "description": "Simple, powerful and efficient multi-platform subtitling software",
+    "architecture": {
+        "64bit": {
+            "url": "https://t.arctime.cn/ap2w64",
+            "hash": "bd6c3fe7a0a0357a0186b3f74b011c776c1d3f2af1b5c81b24ce885cd9ec2eb2",
+            "extract_dir": "ARCTIME_PRO_2.4_WIN64"
+        },
+        "32bit": {
+            "url": "https://t.arctime.cn/ap2w",
+            "hash": "39a4ad31cace258d6a45f51b056f39753cd6dafa17d83acdaa4abe98aacdea4e",
+            "extract_dir": "ARCTIME_PRO_2.4_WIN32"
+        }
+    },
+    "bin": [["Arctime Pro.exe", "Arctime"]],
+    "shortcuts": [["Arctime Pro.exe", "Arctime"]],
+    "checkver": {
+        "url": "https://arctime.org/download.html",
+        "re": "最新版：ArcTime Pro ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://t.arctime.cn/ap2w64",
+                "extract_dir": "ARCTIME_PRO_$version_WIN64"
+            },
+            "32bit": {
+                "url": "https://t.arctime.cn/ap2w",
+                "extract_dir": "ARCTIME_PRO_$version_WIN32"
+            }
+        }
+    },
+    "notes":[
+        "If you can't run the program successfully, please open the page https://t.arctime.cn/cw to find the wrong"
+    ]
+}
