@@ -3,17 +3,18 @@
     "homepage": "https://github.com/Loyalsoldier/v2ray-rules-dat",
     "description": "Enhanced edition of V2Ray rules dat files.",
     "license": "GPL-3.0-or-later",
-    "url":[
-        "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202005262207/geoip.dat",
-        "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202005262207/geosite.dat"
-    ],
-    "hash":[
-        "dd3ac24142b39a9fe5bc6d8f0e9755e8c9df055534b32bc5a2a88c08aa072825",
-        "bb6d572fc2bbdc36d2a4268117870f6863ca96f160c4dfbec06563ee24fe1d07"
-    ],
+    "url":"https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202005270621/rules.zip",
+    "hash":"9700de0570e5b1250afd6c9c062176dc4150a4410fe20febfac85ad9da27a636",
     "depends": ["v2ray"],
     "post_install":[
         "Copy-Item \"$dir/geoip.dat\" \"$dir/../../v2ray/current\" -Force",
         "Copy-Item \"$dir/geosite.dat\" \"$dir/../../v2ray/current\" -Force"
-    ]
+    ],
+    "checkver":"github",
+    "autoupdate": {
+        "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/rules.zip",
+        "hash": {
+            "url":"https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/rules.zip.sha256sum"
+        }
+    }
 }
