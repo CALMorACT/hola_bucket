@@ -1,0 +1,14 @@
+{
+    "version":"1.0",
+    "description": "Enlarge the image with AI",
+    "license":"unknown",
+    "hash":"9113ed87a4b522128a22fee96e683b7f3d03dba38e9dd059bda99ae186626b73",
+    "url": "https://cdn-ossd.zipjpg.com/app/bigjpg-win-x64.zip",
+    "homepage": "https://bigjpg.com",
+    "bin":[
+        [
+            "bigjpg-win-x64.exe",
+            "bigjpg"
+        ]
+    ]
+}
