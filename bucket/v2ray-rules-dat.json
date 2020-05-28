@@ -1,10 +1,10 @@
 {
-    "version": "202005272208",
+    "version": "202005282208",
     "homepage": "https://github.com/Loyalsoldier/v2ray-rules-dat",
     "description": "Enhanced edition of V2Ray rules dat files.",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202005272208/rules.zip",
-    "hash": "50df00d8ac84a4ff570a0766d160b731571938595eef4a12cb10cc3008451275",
+    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202005282208/rules.zip",
+    "hash": "13cd9a3ec8251cae76fb9319f60917f50ba7e4bceb0246c1accca66f7250016b",
     "depends": "v2ray",
     "post_install": [
         "Copy-Item \"$dir/geoip.dat\" \"$dir/../../v2ray/current\" -Force",
