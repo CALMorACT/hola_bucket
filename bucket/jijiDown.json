@@ -1,0 +1,25 @@
+{
+    "version": "1.224.0",
+    "url":"http://clientfile.jijidown.com/PC/WPF/HistoricVersion/WPF_JJDown_v1.224.0.zip",
+    "homepage": "http://www.jijidown.com/",
+    "description": "",
+    "hash":"9813452e5b48df9797e842833a8d04c5063fb1c4def9884c008b1d39ee327ec5",
+    "extract_dir":"[WPF]JJDown",
+    "bin":[
+        [
+            "JiJiDownForWPF.exe",
+            "jijidown"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "JiJiDownForWPF.exe",
+            "JiJiDown"
+        ]
+    ],
+    "checkver":{
+        "url": "http://client.jj.xiaoc.cn/",
+        "re": "版本.+v([\\d.]+)"
+    },
+    "notes": "If you can't run the program, please run the \"打不开安装这个.NET4.0运行框架.exe\" to fix the .NET4.0"
+}
