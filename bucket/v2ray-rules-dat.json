@@ -3,13 +3,17 @@
     "homepage": "https://github.com/Loyalsoldier/v2ray-rules-dat",
     "description": "Enhanced edition of V2Ray rules dat files.",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202005282208/rules.zip",
+    "url": [
+        "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202005282208/rules.zip",
+        "https://github.com/CALMorACT/hola_bucket/blob/master/test/v2ray-rules-search.ps1"
+    ],
     "hash": "13cd9a3ec8251cae76fb9319f60917f50ba7e4bceb0246c1accca66f7250016b",
     "depends": "v2ray",
     "post_install": [
         "Copy-Item \"$dir/geoip.dat\" \"$dir/../../v2ray/current\" -Force",
         "Copy-Item \"$dir/geosite.dat\" \"$dir/../../v2ray/current\" -Force"
     ],
+    "bin": [["v2ray-rules-search.ps1", "v2rulesearch"]],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/rules.zip",
