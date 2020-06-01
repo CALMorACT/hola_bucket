@@ -35,16 +35,16 @@ if (!($link)){
     "all or a: search all types of link, the dafult option"
 }
 else {
-    if ($type -eq "direct" || $type -eq "d") {
+    if ($type -eq "direct" -or $type -eq "d") {
         get_info 1 $link
     }
-    elseif ($type -eq "proxy" || $type -eq "p") {
+    elseif ($type -eq "proxy" -or $type -eq "p") {
         get_info 2 $link
     }
-    elseif ($type -eq "reject" || $type -eq "r"){
+    elseif ($type -eq "reject" -or $type -eq "r"){
         get_info 3 $link
     }
-    elseif ($type -eq "all" || $type -eq "a"){
+    elseif ($type -eq "all" -or $type -eq "a"){
         get_info 4 $link
     }
 }
