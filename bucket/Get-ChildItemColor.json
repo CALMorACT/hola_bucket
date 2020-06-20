@@ -1,0 +1,21 @@
+{
+    "version": "2.1.1",
+    "description": "Add coloring to the output of Get-ChildItem Cmdlet of PowerShell.",
+    "license": "MIT",
+    "url": "https://github.com/joonro/Get-ChildItemColor/archive/v2.1.1.zip",
+    "homepage": "https://github.com/joonro/Get-ChildItemColor",
+    "hash": "8e46ed54ec1b79c1d198bb2e2877f0dabae8b0dfabd9adb20c3a238484962fa7",
+    "psmodule": {
+        "name": "Get-ChildItemColor"
+    },
+    "checkver": {
+        "github": "https://github.com/joonro/Get-ChildItemColor"
+    },
+    "autoupdate": {
+        "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/$version/oh-my-posh.zip"
+    },
+    "notes": [
+        "Get-ChildItemColor must be manually enabled (add to $Profile to make it permanent):",
+        "Import-Module Get-ChildItemColor"
+    ]
+}
