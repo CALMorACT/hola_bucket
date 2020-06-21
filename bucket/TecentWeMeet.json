@@ -1,0 +1,27 @@
+{
+    "version": "1.5.8.456",
+    "url": "https://30ef7b1edd7df857d299f5084adc1666.dlied1.cdntips.com/dlied1.qq.com/download/TencentMeeting_0300000000_1.5.8.456.publish.exe#dl.7z",
+    "hash": "cd8ab9921ef7850ecd6e47de7ee241b31a4701398b37688a352ea9c941bfc0c2",
+    "description": "Cloud conference anytime, anywhere, HD audio video conference",
+    "homepage": "https://meeting.tencent.com/index.html",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://meeting.tencent.com/declare.html"
+    },
+    "pre_install": [
+        "Expand-Archive \"$dir/`$`_4`_/weMeet.456.zip\" \"$dir\"",
+        "Move-Item \"$dir/`$`_4`_/WeMeetUninstall.exe\" \"$dir/weMeet.456/\"",
+        "Move-Item \"$dir/weMeet.456/*\" \"$dir\"",
+        "Remove-Item \"$dir/weMeet.456\", \"$dir/`$TEMP\", \"$dir/`$PLUGINSDIR\", \"$dir/`$`_4`_\" -Force -Recurse"
+    ],
+    "bin": [["wemeetapp.exe", "wemeet"]],
+    "shortcuts": [["wemeetapp.exe", "腾讯会议"]],
+    "uninstaller": {
+        "file": "WeMeetUninstall.exe"
+    },
+    "notes": "We don't persist your WeMeet data, they are still storaged in '%APPDATA%/Tencent/WeMeet'.",
+    "##": [
+        "checkver url: https://meeting.tencent.com/download-center.html",
+        "checkver re:  Windows.*版本\\s*(?<version>[\\d.]+)"
+    ]
+}
