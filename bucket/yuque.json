@@ -1,24 +1,36 @@
 {
-    "version": "0.2.18",
+    "version": "0.2.19",
     "homepage": "https://www.yuque.com/",
-    "hash":"a28d8bb680eb2689edf319e02772b3111e99d5117aa5dfbf53ee2d76811cf786",
+    "hash": "cf7695c4df3fc508f51625db758141ec05851bcc207198538dd522451ced9303",
     "license": {
         "identifier": "Yuque service agreement",
         "url": "https://www.yuque.com/terms"
     },
     "description": "Create a lighter writing experience",
-    "url": "https://app.nlark.com/yuque-desktop/Yuque-0.2.18.exe#dl.7z",
+    "url": "https://app.nlark.com/yuque-desktop/Yuque-0.2.19.exe#dl.7z",
     "pre_install": [
         "Move-Item \"$dir/`$PLUGINSDIR/*.7z\" \"$dir/Setup.7z\"",
         "Expand-7zipArchive \"$dir/Setup.7z\"",
         "Remove-Item \"$dir/`$PLUGINSDIR\", \"$dir/Setup.7z\" -Force -Recurse"
     ],
-    "uninstaller": { "file": "Uninstall 语雀.exe" },
-    "bin": [["语雀.exe", "yuque"]],
-    "shortcuts": [["语雀.exe", "语雀"]],
-    "checkver":{
+    "uninstaller": {
+        "file": "Uninstall 语雀.exe"
+    },
+    "bin": [
+        [
+            "语雀.exe",
+            "yuque"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "语雀.exe",
+            "语雀"
+        ]
+    ],
+    "checkver": {
         "url": "https://www.yuque.com/install/desktop",
-        "re":"href.*Yuque-([\\d.]+).exe"
+        "re": "href.*Yuque-([\\d.]+).exe"
     },
     "autoupdate": {
         "url": "https://app.nlark.com/yuque-desktop/Yuque-$version.exe#dl.7z"
