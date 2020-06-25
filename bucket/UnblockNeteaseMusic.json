@@ -1,0 +1,24 @@
+{
+    "version": "0.25.3",
+    "description": "Revive unavailable songs for Netease Cloud Music",
+    "license":"MIT",
+    "homepage": "https://github.com/nondanee/UnblockNeteaseMusic",
+    "url":[
+        "https://github.com/nondanee/UnblockNeteaseMusic/archive/v0.25.3.zip",
+        ""
+    ],
+    "hash":[
+        "2186f5f0daa999d393fd8bf709270c78dd6566b83e275c8d04b85766db06ce40"
+    ],
+    "depends":["neteasemusic"],
+    "checkver":{
+        "github": "https://github.com/nondanee/UnblockNeteaseMusic"
+    },
+    "autoupdate": {
+        "url": "https://github.com/nondanee/UnblockNeteaseMusic/archive/v$version.zip"
+    },
+    "notes":[
+        "This software should only be used with node.js for create a sever (port: 5000)",
+        "or you can look more at it 's homepage"
+    ]
+}
