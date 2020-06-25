@@ -1,23 +1,35 @@
 {
     "version": "0.25.3",
     "description": "Revive unavailable songs for Netease Cloud Music",
-    "license":"MIT",
+    "license": "MIT",
     "homepage": "https://github.com/nondanee/UnblockNeteaseMusic",
-    "url":[
+    "url": [
         "https://github.com/nondanee/UnblockNeteaseMusic/archive/v0.25.3.zip",
-        ""
+        "https://raw.githubusercontent.com/CALMorACT/hola_bucket/master/test/UnblockNeteaseMusic.bat"
     ],
-    "hash":[
-        "2186f5f0daa999d393fd8bf709270c78dd6566b83e275c8d04b85766db06ce40"
+    "hash": [
+        "2186f5f0daa999d393fd8bf709270c78dd6566b83e275c8d04b85766db06ce40",
+        "9f865ca78e673b101af192606b059e05e6df27fba2aecd333b5463e8c168afe0"
     ],
-    "depends":["neteasemusic"],
-    "checkver":{
+    "post_install": [
+        " $test_directory = [System.IO.Path]::Combine([Environment]::GetFolderPath('startmenu'), 'Programs', 'Scoop Apps')",
+        "$music_icon = [System.IO.Path]::Combine($(appdir neteasemusic), 'current', 'resource', 'format.ico')",
+        "$music_icon = New-Object System.IO.FileInfo($music_icon)",
+        "$wsShell = New-Object -ComObject WScript.Shell",
+        "$wsShell = $wsShell.CreateShortcut(\"$test_directory\\UnblockNeteaseMusic.lnk\")",
+        "$wsShell.IconLocation = $music_icon.FullName",
+        "$wsShell.Save()"
+    ],
+    "depends": ["neteasemusic"],
+    "bin": [["UnblockNeteaseMusic.bat", "UnblockNeteaseMusic"]],
+    "shortcuts": [["UnblockNeteaseMusic.bat", "UnblockNeteaseMusic"]],
+    "checkver": {
         "github": "https://github.com/nondanee/UnblockNeteaseMusic"
     },
     "autoupdate": {
         "url": "https://github.com/nondanee/UnblockNeteaseMusic/archive/v$version.zip"
     },
-    "notes":[
+    "notes": [
         "This software should only be used with node.js for create a sever (port: 5000)",
         "or you can look more at it 's homepage"
     ]
