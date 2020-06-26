@@ -11,6 +11,10 @@
         "2186f5f0daa999d393fd8bf709270c78dd6566b83e275c8d04b85766db06ce40",
         "9f865ca78e673b101af192606b059e05e6df27fba2aecd333b5463e8c168afe0"
     ],
+    "pre_install":[
+        "Move-Item \"$dir/UnblockNeteaseMusic-$version/*\" \"$dir\"",
+        "Remove-Item \"$dir/UnblockNeteaseMusic-$version\""
+    ],
     "post_install": [
         " $test_directory = [System.IO.Path]::Combine([Environment]::GetFolderPath('startmenu'), 'Programs', 'Scoop Apps')",
         "$music_icon = [System.IO.Path]::Combine($(appdir neteasemusic), 'current', 'resource', 'format.ico')",
