@@ -5,5 +5,5 @@
     "url":"https://raw.githubusercontent.com/CALMorACT/hola_bucket/master/test/gig.ps1",
     "hash":"68610458b51edb0ba989f33716a287117b9e5a8913afe81a097d273b1caa5383",
     "license":"MIT",
-    "bin":"gig.ps1",
+    "bin":"gig.ps1"
 }
