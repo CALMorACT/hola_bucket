@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "homepage": "https://github.com/Qv2ray/QvPlugin-Command",
+    "description": "Run the specified program when the Qv2ray state changes!",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url":"https://github.com/Qv2ray/QvPlugin-Command/releases/download/v2.0.0/QvCommandPlugin.v2.0.0.Windows-x64.dll",
+            "hash": "f5d0251594516ece2318f967fad8f3d17a91e5b0657e737c6f85d9baedf13899",
+            "post_install": "Copy-Item \"$dir/QvCommandPlugin.v$version.Windows-x64.dll\" \"$dir/../../qv2ray/current/config/plugins\" -Force"
+        },
+        "32bit": {
+            "url": "https://github.com/Qv2ray/QvPlugin-Command/releases/download/v2.0.0/QvCommandPlugin.v2.0.0.Windows-x86.dll",
+            "hash": "43d6c1ff77afc86e9919fe0d8bdc48f43e28b45a37e12b2fa541bac80f1ff9d0",
+            "post_install": "Copy-Item \"$dir/QvCommandPlugin.v$version.Windows-x86.dll\" \"$dir/../../qv2ray/current/config/plugins\" -Force"
+        }
+    },
+    "depends": "qv2ray",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/Qv2ray/QvPlugin-Command/releases/download/v$version/QvCommandPlugin.v$version.Windows-x64.dll",
+                "hash": {
+                    "url":"https://github.com/Qv2ray/QvPlugin-Command/releases/download/v2.0.0/sha256.list",
+                    "regex": "([a-fA-F0-9]{32,128})[\\x20\\t]+.*86.dll"
+                }
+            },
+            "64bit": {
+                "url": "https://github.com/Qv2ray/QvPlugin-Command/releases/download/v$version/QvCommandPlugin.v$version.Windows-x86.dll",
+                "hash": {
+                    "url":"https://github.com/Qv2ray/QvPlugin-Command/releases/download/v2.0.0/sha256.list",
+                    "regex": "([a-fA-F0-9]{32,128})[\\x20\\t]+.*64.dll"
+                }
+            }
+        }
+    }
+}
