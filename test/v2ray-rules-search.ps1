@@ -1,8 +1,8 @@
 param($type = "all", $link)
 
-$direct = "direct-list"
-$proxy = "proxy-list"
-$reject = "reject-list"
+$direct = "direct-list.txt"
+$proxy = "proxy-list.txt"
+$reject = "reject-list.txt"
 
 
 
