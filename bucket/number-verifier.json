@@ -1,0 +1,19 @@
+{
+    "version": "0.4",
+    "homepage": "https://github.com/upmasked/number-verifier",
+    "description": "Successor version of PDown, BaiduYunPan download",
+    "url": "https://github.com/upmasked/number-verifier/releases/download/v0.4/number-verifier-v0.4-windows-amd64.zip",
+    "license": "MIT",
+    "hash": "md5:024cbbc098e86527c8bfe087c7c1ec33",
+    "checkver": {
+        "github": "https://github.com/upmasked/number-verifier"
+    },
+    "bin": [["number-verifier.exe", "number-verifier"]],
+    "autoupdate": {
+        "url": "https://github.com/forpdown/pdown/releases/download/v$version/number-verifier-v$version-windows-amd64.zip",
+        "hash": {
+            "url":"https://github.com/upmasked/number-verifier/releases/download/v$version/number-verifier-v$version-windows-amd64.zip.md5",
+            "type": "md5"
+        }
+    }
+}
