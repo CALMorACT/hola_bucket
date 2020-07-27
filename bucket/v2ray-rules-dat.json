@@ -9,7 +9,7 @@
     ],
     "hash": [
         "41161eef861c663821f7f9bb9c412a9e9484d853e4d337e0ebeb31177427b034",
-        "a863b218e77a8468d7ab7ecdacfbaf2f5b7e4556f80109b68760d3c7030e94df"
+        "c189578c79940f3ab935df8c27d0e2e1ca9773acc7ef61f772f83e7c2523e700"
     ],
     "depends": "v2ray",
     "post_install": [
