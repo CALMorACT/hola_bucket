@@ -1,0 +1,25 @@
+{
+    "version": "2.63",
+    "homepage": "https://github.com/miaomiaosoft/PandaOCR",
+    "url": "https://github.com/miaomiaosoft/PandaOCR/releases/download/2.63/PandaOCR_2.63.zip",
+    "hash":"cd0e9686595a26c2803f89c89443b443a618330295e892d79f57f90ffabbb271",
+    "license":"Freeware",
+    "bin":[
+        [
+            "PandaOCR.exe",
+            "PandaOCR"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "PandaOCR.exe",
+            "PandaOCR"
+        ]
+    ],
+    "checkver":{
+        "github": "https://github.com/miaomiaosoft/PandaOCR"
+    },
+    "autoupdate": {
+        "url": "https://github.com/miaomiaosoft/PandaOCR/releases/download/$version/PandaOCR_$version.zip"
+    }
+}
