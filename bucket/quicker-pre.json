@@ -1,16 +1,16 @@
 {
     "homepage": "https://getquicker.net/",
-    "version": "1.9.22",
+    "version": "1.10.4",
     "license": "Freeware",
     "description": "Create shortcuts for common operations and keep efficiency within reach",
     "architecture": {
         "64bit": {
             "url": "https://getquicker.net/download/item/fast_x64#.msi",
-            "hash": "07b1f65d7e4d3dbcee13592fd8ce8c360612f765668518a1a841597b0129de19"
+            "hash": "7babab28ae3446e05462ca78873632737305d377febbaff22a4ff0291f02fa94"
         },
         "32bit": {
             "url": "https://getquicker.net/download/item/fast_x86#.msi",
-            "hash": "0bb4a241da3cc2afffc1e5f02ca545dcb801ea7874af408e650238860ca6650d"
+            "hash": "99f061e0efdca1f3d78bd917c46d1cd7f8da5327c7c3003954e627e707c449f9"
         }
     },
     "extract_dir": "Quicker",
