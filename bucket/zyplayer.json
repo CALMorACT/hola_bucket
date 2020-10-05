@@ -1,16 +1,26 @@
 {
-    "version": "2.4.5",
+    "version": "2.5.1",
     "homepage": "https://github.com/Hunlongyu/ZY-Player",
-    "hash": "4f11b7afed480c67f8da2977159bbc125529634cd900d66d025e6c4f212b28e0",
+    "hash": "6ec66da991997ee46ea12eddeb861c89f0e237136676208dcebaa94cdf71f050",
     "license": "MIT",
-    "url": "https://github.com/Hunlongyu/ZY-Player/releases/download/v2.4.5/ZY-Player-Setup-2.4.5.exe#dl.7z",
-    "bin": [["ZY Player.exe", "ZY-Player"]],
+    "url": "https://github.com/Hunlongyu/ZY-Player/releases/download/v2.5.1/ZY-Player-Setup-2.5.1.exe",
+    "bin": [
+        [
+            "ZY Player.exe",
+            "ZY-Player"
+        ]
+    ],
     "pre_install": [
         "Move-Item \"$dir/`$PLUGINSDIR/*.7z\" \"$dir/Setup.7z\"",
         "Expand-7zipArchive \"$dir/Setup.7z\"",
         "Remove-Item \"$dir/`$PLUGINSDIR\", \"$dir/Setup.7z\" -Force -Recurse"
     ],
-    "shortcuts": [["ZY Player.exe", "ZY-Player"]],
+    "shortcuts": [
+        [
+            "ZY Player.exe",
+            "ZY-Player"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/Hunlongyu/ZY-Player"
     },
