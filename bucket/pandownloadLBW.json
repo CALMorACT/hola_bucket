@@ -1,0 +1,18 @@
+{
+    "version": "3.4",
+    "description": "PanDownload own sever",
+    "homepage": "https://github.com/PanDownloadServer/Server",
+
+    "url": "https://github.com/PanDownloadServer/Server/raw/master/PanDownloadLBW3.4.zip",
+    "hash":"a0c1ee04897aec91b0100af0d79b893b929fe2bafdabaec8861c56745d91f9e4",
+    "license": "Freeware",
+    "bin": [["PanDownload.exe", "PanDownload"]],
+    "shortcuts": [["PanDownload.exe", "PanDownload"]],
+    "checkver":{
+        "url": "https://github.com/PanDownloadServer/Server",
+        "regex": "PanDownloadLBW([\\d.]+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/PanDownloadServer/Server/raw/master/PanDownloadLBW$version.zip"
+    }
+}
