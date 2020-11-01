@@ -1,9 +1,9 @@
 {
-    "version": "2.5.3",
+    "version": "2.5.9",
     "homepage": "https://github.com/Hunlongyu/ZY-Player",
-    "hash": "d969e8b5f3d940bd894361cbf0a0ae9fb0842b36e06c7424e284580c03ebfeda",
+    "hash": "d19ef1225e02be8d9cda32e8dae35448aef6c4fef41dec6075b18ff4062aa96c",
     "license": "MIT",
-    "url": "https://github.com/Hunlongyu/ZY-Player/releases/download/v2.5.3/ZY-Player-Setup-2.5.3.exe",
+    "url": "https://github.com/Hunlongyu/ZY-Player/releases/download/v2.5.9/ZY-Player-Setup-2.5.9.exe",
     "bin": [
         [
             "ZY Player.exe",
