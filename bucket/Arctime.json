@@ -1,22 +1,32 @@
 {
-    "version": "2.4",
+    "version": "2.4.1",
     "homepage": "https://arctime.org/",
     "license": "unknown",
     "description": "Simple, powerful and efficient multi-platform subtitling software",
     "architecture": {
         "64bit": {
-            "url": "https://t.arctime.cn/ap2w64/#dl.rar",
-            "hash": "bd6c3fe7a0a0357a0186b3f74b011c776c1d3f2af1b5c81b24ce885cd9ec2eb2",
-            "extract_dir": "ARCTIME_PRO_2.4_WIN64"
+            "url": "https://t.arctime.cn/ap2w64",
+            "hash": "5ace2b790f4c7a0f239fda49c77d3f504f6983fef8794a0d02076b0fc3544a51",
+            "extract_dir": "ARCTIME_PRO_2.4.1_WIN64"
         },
         "32bit": {
-            "url": "https://t.arctime.cn/ap2w/#dl.rar",
-            "hash": "39a4ad31cace258d6a45f51b056f39753cd6dafa17d83acdaa4abe98aacdea4e",
-            "extract_dir": "ARCTIME_PRO_2.4_WIN32"
+            "url": "https://t.arctime.cn/ap2w",
+            "hash": "cb141910666039f39ddaff565f253481db033f04193e393f8ec14a473e2898eb",
+            "extract_dir": "ARCTIME_PRO_2.4.1_WIN32"
         }
     },
-    "bin": [["Arctime Pro.exe", "Arctime"]],
-    "shortcuts": [["Arctime Pro.exe", "Arctime"]],
+    "bin": [
+        [
+            "Arctime Pro.exe",
+            "Arctime"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Arctime Pro.exe",
+            "Arctime"
+        ]
+    ],
     "checkver": {
         "url": "https://arctime.org/download.html",
         "re": "最新版：ArcTime Pro ([\\d.]+)"
@@ -33,7 +43,5 @@
             }
         }
     },
-    "notes":[
-        "If you can't run the program successfully, please open the page https://t.arctime.cn/cw to find the wrong"
-    ]
+    "notes": "If you can't run the program successfully, please open the page https://t.arctime.cn/cw to find the wrong"
 }
