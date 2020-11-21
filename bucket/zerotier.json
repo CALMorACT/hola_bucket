@@ -1,14 +1,14 @@
 {
-    "version": "1.4.6",
-    "url":"https://download.zerotier.com/dist/ZeroTier%20One.msi",
-    "license":{
+    "version": "1.6.0",
+    "url": "https://download.zerotier.com/dist/ZeroTier%20One.msi",
+    "license": {
         "identifier": "ZeroTier BSL 1.1",
         "url": "https://github.com/zerotier/ZeroTierOne/blob/master/LICENSE.txt"
     },
     "homepage": "https://www.zerotier.com/",
     "description": "Easily connect cloud, mobile, desktop, and data center resources anywhere.",
-    "hash": "f18d2d4e4f053d75da625acfc8e2a8820bcd107722d6fb1721b407806db6cefc",
-    "checkver":{
+    "hash": "e5ecb455dfc729a57430444c5990aa2d7829b1a81171ce5659c35d5713a3fd4c",
+    "checkver": {
         "url": "https://www.zerotier.com/download/",
         "re": "Latest Version:\\s*([\\d.]+)"
     },
