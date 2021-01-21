@@ -34,7 +34,7 @@
         "url": "https://github.com/nondanee/UnblockNeteaseMusic/archive/v$version.zip"
     },
     "notes": [
-        "This software should only be used with node.js for create a sever (port: 5000)",
+        "This software should only be used with node.js for create a sever (port: 5200)",
         "or you can look more at it 's homepage"
     ]
 }
