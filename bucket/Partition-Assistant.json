@@ -1,32 +1,32 @@
 {
-    "version": "8.3",
+    "version": "9.1",
     "description": "Easy-to-use Partition Software and Safe Disk Manager",
     "url": "http://www2.aomeisoftware.com/download/pacn/PAGreen.zip",
     "homepage": "https://www.disktool.cn",
-    "hash":"46605c46318162d22295e24a04526c32585c7e23860c6b3f7cd7a9a7d6b7b151",
+    "hash": "4eb7b6bed800b4ca484897936ad52a55a99588b80970bb8824b9bc1914ba0459",
     "extract_dir": "PA_Green",
     "license": "unknown",
-    "bin":[
+    "bin": [
         [
             "PartAssist.exe",
             "partition"
         ]
     ],
-    "persist":"usecode.ini",
+    "persist": "usecode.ini",
     "shortcuts": [
         [
             "PartAssist.exe",
             "PartitionAssistant"
         ]
     ],
-    "checkver":{
+    "checkver": {
         "url": "https://www.disktool.cn/download.html",
         "re": "分区助手\\s*([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://www2.aomeisoftware.com/download/pacn/PAGreen.zip"
     },
-    "notes":[
+    "notes": [
         "This software is free only in China.",
         "If you are not Chinese, you need to pay for the function of the software.",
         "Please see https://aomeitech.com for more information"
