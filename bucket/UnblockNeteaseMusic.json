@@ -9,7 +9,7 @@
     ],
     "hash": [
         "2186f5f0daa999d393fd8bf709270c78dd6566b83e275c8d04b85766db06ce40",
-        "9f865ca78e673b101af192606b059e05e6df27fba2aecd333b5463e8c168afe0"
+        "a91bccb40cdf8d6d03aa89fe537aa20e725b9e99f429a29bce1484caa63bb7b1"
     ],
     "pre_install":[
         "Move-Item \"$dir/UnblockNeteaseMusic-$version/*\" \"$dir\"",
