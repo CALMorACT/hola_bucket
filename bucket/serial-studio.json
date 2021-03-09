@@ -1,0 +1,26 @@
+{
+    "version": "1.0.18",
+    "url": "https://github.com/Serial-Studio/Serial-Studio/releases/download/v1.0.18/SerialStudio-1.0.18-Windows.exe#dl.7z",
+    "hash": "ab4ee44e15755aea58356a221e3109444858ea116c8ce79e627b572d86515ec6",
+    "description": "Multi-purpose serial data visualization & processing program",
+    "homepage": "https://github.com/Serial-Studio/Serial-Studio",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/Serial-Studio/Serial-Studio/blob/master/LICENSE.md"
+    },
+    "pre_install": [
+        "Remove-Item -Recurse \"$dir/`$PLUGINSDIR\"",
+        "Move-Item \"$dir/`$PROGRAMFILES64/Serial Studio/*\" \"$dir\""
+    ],
+    "bin": [["bin/SerialStudio.exe", "SerialStudio"]],
+    "shortcuts": [["bin/SerialStudio.exe", "SerialStudio"]],
+    "uninstaller": {
+        "file": "uninstall.exe"
+    },
+    "checkver": {
+        "github": "https://github.com/Serial-Studio/Serial-Studio"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Serial-Studio/Serial-Studio/releases/download/v$version/SerialStudio-$version-Windows.exe#dl.7z"
+    }
+}
