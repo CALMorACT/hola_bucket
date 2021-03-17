@@ -1,0 +1,18 @@
+{
+    "version": "5.2.12",
+    "homepage": "https://support.huaweicloud.com/utiltg-obs/obs_11_0001.html",
+    "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsutil_windows_amd64.zip",
+    "hash": "998de32804e87727563083fc037fd6b8ab5957b5776e5aa15327525c0c221412",
+    "license": "Freeware",
+    "bin": [["obsutil_windows_amd64_5.2.12/obsutil.exe", "obsutil"]],
+    "checkver": {
+        "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsutil_windows_amd64.zip.sha256",
+        "regex": "obsutil_windows_amd64_(.+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsutil_windows_amd64.zip",
+        "hash": {
+            "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsutil_windows_amd64.zip.sha256"
+        }
+    }
+}
