@@ -1,8 +1,8 @@
 {
-    "version": "1.6.2",
+    "version": "1.6.3",
     "homepage": "http://irreader.fatecore.com/",
-    "url": "http://irreader.fatecore.com/download/irreader-1.6.2.zip",
-    "hash": "fd6011ae1e18dc2eb12adbc08494d66a5978c7d23fc72f4fb02cb3ef3db7e64f",
+    "url": "http://irreader.fatecore.com/download/irreader-1.6.3.zip",
+    "hash": "3d53b7a9dafbfa97b2dc0a316a88f630846f2070481d995f8eece8d09ca21d32",
     "pre_install": [
         "Move-Item \"$dir/irreader-$version/*.exe\" \"$dir/irreader Setup.7z\"",
         "Remove-Item \"$dir/irreader-$version\"",
