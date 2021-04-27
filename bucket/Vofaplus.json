@@ -11,8 +11,8 @@
             "hash": "a7fa8f07ef42687c01ec42e26f8257f962fde4a20c21c9aa8b83fb5485c433ac"
         }
     },
-    "bin": [["vofa+.exe", "vofa+"]],
-    "shortcuts": [["vofa+.exe", "vofa+"]],
+    "bin": [["x64/vofa+.exe", "vofaplus"]],
+    "shortcuts": [["x64/vofa+.exe", "vofaplus"]],
     "persist": ["plugins"],
     "checkver": {
         "url": "https://www.vofa.plus/downloads/",
