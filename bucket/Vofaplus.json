@@ -13,7 +13,7 @@
     },
     "bin": [["x64/vofa+.exe", "vofaplus"]],
     "shortcuts": [["x64/vofa+.exe", "vofaplus"]],
-    "persist": ["plugins"],
+    "persist": ["x64/plugins"],
     "checkver": {
         "url": "https://www.vofa.plus/downloads/",
         "re": "当前版本：(.+)（<"
