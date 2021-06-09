@@ -1,8 +1,8 @@
 {
-    "version": "2.68",
+    "version": "2.69",
     "homepage": "https://github.com/miaomiaosoft/PandaOCR",
-    "url": "https://github.com/miaomiaosoft/PandaOCR/releases/download/2.68/PandaOCR_2.68.zip",
-    "hash": "bc3b636dd6e4743a676ddfbfcf858c0728e812b7e8ce99fd0951c96774b6f145",
+    "url": "https://github.com/miaomiaosoft/PandaOCR/releases/download/2.69/PandaOCR_2.69.zip",
+    "hash": "50b483205966590f8496eec1156fb1c153e3dc2338badd30a0e55ae0f76ceb9c",
     "license": "Freeware",
     "bin": [
         [
