@@ -1,13 +1,13 @@
 {
-    "version": "0.8.13",
+    "version": "0.8.17",
     "homepage": "https://www.yuque.com/",
-    "hash": "f0264e04184b140b3bb0b034cac45f4644e1bc27c7dbadf8e3c6b0b35a4393b4",
+    "hash": "747d639b3793e3c604fd37895bbbd75249615aef0e81252d2ba8b2612f75b1b0",
     "license": {
         "identifier": "Yuque service agreement",
         "url": "https://www.yuque.com/terms"
     },
     "description": "Create a lighter writing experience",
-    "url": "https://app.nlark.com/yuque-desktop/Yuque-0.8.13.exe#dl.7z",
+    "url": "https://app.nlark.com/yuque-desktop/Yuque-0.8.17.exe#dl.7z",
     "pre_install": [
         "Move-Item \"$dir/`$PLUGINSDIR/*.7z\" \"$dir/Setup.7z\"",
         "Expand-7zipArchive \"$dir/Setup.7z\"",
