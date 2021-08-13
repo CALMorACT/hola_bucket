@@ -1,14 +1,14 @@
 {
-    "version": "0.0.9",
+    "version": "0.1.0",
     "homepage": "https://github.com/tickstep/cloudpan189-go",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tickstep/cloudpan189-go/releases/download/v0.0.9/cloudpan189-go-v0.0.9-windows-x64.zip#/dl.7z",
-            "hash": "e1d51e6ea439f577e502fafd238e24844b82b19b37c56a3b2a48a1e86bd42b66"
+            "url": "https://github.com/tickstep/cloudpan189-go/releases/download/v0.1.0/cloudpan189-go-v0.1.0-windows-x64.zip#/dl.7z",
+            "hash": "2690941622a87cc2cdf0c83c5c7c5a5fa1a8d075716c4251a595a9576f060ff4"
         },
         "32bit": {
-            "url": "https://github.com/tickstep/cloudpan189-go/releases/download/v0.0.9/cloudpan189-go-v0.0.9-windows-x86.zip#/dl.7z",
-            "hash": "04dedb2f3971d927fe8fd49914d006483a4feab6b8e527095531d8b543a12894"
+            "url": "https://github.com/tickstep/cloudpan189-go/releases/download/v0.1.0/cloudpan189-go-v0.1.0-windows-x86.zip#/dl.7z",
+            "hash": "526579c42b76ef234f57d4a58594f774dba00ef7d6c2a12319664d8786688cee"
         }
     },
     "pre_install": [
@@ -16,9 +16,17 @@
         "New-Item \"$dir\\cloud189_config.json\"",
         "New-Item \"$dir\\cloud189_command_history.txt\""
     ],
-    "post_install": ["Remove-Item -Force \"$dir/cloudpan189-go-v$version-windows-x64\""],
-    "bin": [["cloudpan189-go.exe", "cloudpan189-go"]],
-    "persist": ["cloud189_config.json", "cloud189_command_history.txt"],
+    "post_install": "Remove-Item -Force \"$dir/cloudpan189-go-v$version-windows-x64\"",
+    "bin": [
+        [
+            "cloudpan189-go.exe",
+            "cloudpan189-go"
+        ]
+    ],
+    "persist": [
+        "cloud189_config.json",
+        "cloud189_command_history.txt"
+    ],
     "checkver": {
         "github": "https://github.com/tickstep/cloudpan189-go"
     },
