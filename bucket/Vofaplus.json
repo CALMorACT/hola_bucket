@@ -11,9 +11,19 @@
             "hash": "a7fa8f07ef42687c01ec42e26f8257f962fde4a20c21c9aa8b83fb5485c433ac"
         }
     },
-    "pre_install":["Move-Item \"$dir\\x64\\*\" \"$dir\""],
-    "bin": [["vofa+.exe", "vofaplus"]],
-    "shortcuts": [["vofa+.exe", "vofaplus"]],
+    "pre_install": "Move-Item \"$dir\\x64\\*\" \"$dir\"",
+    "bin": [
+        [
+            "vofa+.exe",
+            "vofaplus"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "vofa+.exe",
+            "vofaplus"
+        ]
+    ],
     "checkver": {
         "url": "https://www.vofa.plus/downloads/",
         "re": "当前版本：(.+)（<"

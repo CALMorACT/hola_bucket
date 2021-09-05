@@ -1,11 +1,11 @@
 {
     "version": "1.224.0",
-    "url":"http://clientfile.jijidown.com/PC/WPF/HistoricVersion/WPF_JJDown_v1.229.1.zip",
+    "url": "http://clientfile.jijidown.com/PC/WPF/HistoricVersion/WPF_JJDown_v1.229.1.zip",
     "homepage": "http://www.jijidown.com/",
     "description": "jijidown for bilibili video",
-    "hash":"39c0b2757a763026d27bba0d5babd97b15d80eec2043761e9d80730a0792ee11",
-    "extract_dir":"[WPF]JJDown",
-    "bin":[
+    "hash": "39c0b2757a763026d27bba0d5babd97b15d80eec2043761e9d80730a0792ee11",
+    "extract_dir": "[WPF]JJDown",
+    "bin": [
         [
             "JiJiDownForWPF.exe",
             "jijidown"
@@ -17,12 +17,12 @@
             "JiJiDown"
         ]
     ],
-    "checkver":{
+    "checkver": {
         "url": "http://l.acesheep.com/bili/re.php?c=1630818814768&callback=jQuery1101024331950939479752_1630818801846&_=1630818801847",
         "re": "txt.+<b>(.+) Beta<\\\\\\/b>"
     },
     "autoupdate": {
-        "url":"http://clientfile.jijidown.com/PC/WPF/HistoricVersion/WPF_JJDown_v$vesion.zip"
+        "url": "http://clientfile.jijidown.com/PC/WPF/HistoricVersion/WPF_JJDown_v$vesion.zip"
     },
     "notes": "If you can't run the program, please run the \"打不开安装这个.NET4.0运行框架.exe\" to fix the .NET4.0"
 }

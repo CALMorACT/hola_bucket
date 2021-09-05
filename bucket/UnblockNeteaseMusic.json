@@ -11,7 +11,7 @@
         "2186f5f0daa999d393fd8bf709270c78dd6566b83e275c8d04b85766db06ce40",
         "a91bccb40cdf8d6d03aa89fe537aa20e725b9e99f429a29bce1484caa63bb7b1"
     ],
-    "pre_install":[
+    "pre_install": [
         "Move-Item \"$dir/UnblockNeteaseMusic-$version/*\" \"$dir\"",
         "Remove-Item \"$dir/UnblockNeteaseMusic-$version\""
     ],
@@ -24,9 +24,19 @@
         "$wsShell.IconLocation = $music_icon.FullName",
         "$wsShell.Save()"
     ],
-    "depends": ["neteasemusic"],
-    "bin": [["UnblockNeteaseMusic.bat", "UnblockNeteaseMusic"]],
-    "shortcuts": [["UnblockNeteaseMusic.bat", "UnblockNeteaseMusic"]],
+    "depends": "neteasemusic",
+    "bin": [
+        [
+            "UnblockNeteaseMusic.bat",
+            "UnblockNeteaseMusic"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "UnblockNeteaseMusic.bat",
+            "UnblockNeteaseMusic"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/nondanee/UnblockNeteaseMusic"
     },
