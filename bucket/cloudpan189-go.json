@@ -1,14 +1,14 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/tickstep/cloudpan189-go",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tickstep/cloudpan189-go/releases/download/v0.1.0/cloudpan189-go-v0.1.0-windows-x64.zip#/dl.7z",
-            "hash": "2690941622a87cc2cdf0c83c5c7c5a5fa1a8d075716c4251a595a9576f060ff4"
+            "url": "https://github.com/tickstep/cloudpan189-go/releases/download/v0.1.1/cloudpan189-go-v0.1.1-windows-x64.zip#/dl.7z",
+            "hash": "cc3a707177e40c4ee1fd6a582cf9de32819dcf970b0c6104e2fe1c0415c69338"
         },
         "32bit": {
-            "url": "https://github.com/tickstep/cloudpan189-go/releases/download/v0.1.0/cloudpan189-go-v0.1.0-windows-x86.zip#/dl.7z",
-            "hash": "526579c42b76ef234f57d4a58594f774dba00ef7d6c2a12319664d8786688cee"
+            "url": "https://github.com/tickstep/cloudpan189-go/releases/download/v0.1.1/cloudpan189-go-v0.1.1-windows-x86.zip#/dl.7z",
+            "hash": "12da5d75c226470e40a301e2ef5ce4779538b827a961ddcff012c59ed89d3875"
         }
     },
     "pre_install": [
