@@ -13,14 +13,17 @@
     },
     "license": "Freeware",
     "pre_install": [
-        "Move-Item \"$dir/`$PLUGINSDIR/*.7z\" \"$dir/app-64.7z\"",
-        "Expand-7zipArchive \"$dir/app-64.7z\"",
-        "Remove-Item \"$dir/`$PLUGINSDIR\", \"$dir/app-64.7z\" -Force -Recurse"
+        "Move-Item \"$dir/*.exe\" \"$dir/install.7z\"",
+        "Expand-7zipArchive \"$dir/install.7z\"",
+        "Move-Item \"$dir/`$PLUGINSDIR/*.7z\" \"$dir/Setup.7z\"",
+        "Expand-7zipArchive \"$dir/Setup.7z\"",
+        "Remove-Item \"$dir/`$PLUGINSDIR\", \"$dir/Setup.7z\", \"$dir/install.7z\" -Force -Recurse"
     ],
     "checkver": {
         "url": "https://support.huaweicloud.com/browsertg-obs/obs_03_1026.html",
         "regex": "(20\\d+-\\d+-\\d+)"
     },
+    "shortcuts": [["obs-browser-plus.exe", "obs-browser-plus"]],
     "autoupdate": {
         "architecture": {
             "32bit": {
