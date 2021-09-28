@@ -1,9 +1,9 @@
 {
-    "version": "1.3.0.0",
+    "version": "2.0.0.4",
     "homepage": "https://lumi.mihoyo.com",
     "description": "mihoyo Desktop Robot",
-    "hash": "60e2cfc89fde652b4a72d174c3a0ecdc07391be04c65d81de277aa96f59a9661",
-    "url": "https://n0va-static.mihoyo.com/app/dp/5f17af398d20e6ddc9767e5a/N0vaDesktop_1.3.0.0_mihoyo.exe",
+    "hash": "b4ac50f38a5bdbb86cdf40c8685b6a3a08660feff0d015da19774298bee3b111",
+    "url": "https://n0va-static.mihoyo.com/app/dp/5f17af398d20e6ddc9767e5a/20210923201028/N0vaDesktop_2.0.0.4_mihoyo.exe",
     "bin": [
         [
             "N0vaDesktop.exe",
