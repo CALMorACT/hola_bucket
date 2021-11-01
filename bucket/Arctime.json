@@ -29,7 +29,7 @@
     ],
     "checkver": {
         "url": "https://arctime.org/download.html",
-        "re": "最新版：ArcTime Pro ([\\d.]+)"
+        "re": "最新版本 Pro ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
