@@ -1,20 +1,25 @@
 {
-    "version": "15.0.26",
+    "version": "15.0.27",
     "homepage": "https://www.navicat.com.cn",
     "license": "https://help.navicat.com/hc/zh-cn/sections/204016338-%E8%AE%B8%E5%8F%AF%E8%AF%81",
     "description": "More powerful. Made to visualize data and insights. Enhanced for complete flexibility.",
     "architecture": {
         "64bit": {
             "url": "https://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe",
-            "hash": "9f080e05104bce865b807c2c1e053664ac506cc4de9c51e080e8f2d13189881f"
+            "hash": "4f145c40bf3a63e0f41ffa63eda38131273995df31ede198807f3638553fea1f"
         },
         "32bit": {
             "url": "https://download.navicat.com.cn/download/navicat150_premium_cs_x86.exe",
-            "hash": "846575e09bd6e388874a9fd72a437f6853945261184788f1d3b318b5e2cd7bb7"
+            "hash": "f0f2ae912c5ebd78c71e548276fe48995b9604ce33a192469ca205d500f4b423"
         }
     },
     "innosetup": true,
-    "shortcuts": [["Navicat.exe", "Navicat"]],
+    "shortcuts": [
+        [
+            "Navicat.exe",
+            "Navicat"
+        ]
+    ],
     "checkver": {
         "url": "https://www.navicat.com/en/products/navicat-premium-release-note",
         "re": "Navicat Premium \\(Windows\\) version ([\\d.]+)"
