@@ -1,9 +1,9 @@
 {
-    "version": "9.1",
+    "version": "9.6",
     "description": "Easy-to-use Partition Software and Safe Disk Manager",
     "url": "http://www2.aomeisoftware.com/download/pacn/PAGreen.zip",
     "homepage": "https://www.disktool.cn",
-    "hash": "4eb7b6bed800b4ca484897936ad52a55a99588b80970bb8824b9bc1914ba0459",
+    "hash": "c072fdb7b4bd76573b1556223465351634f279ec144470a9695387a8e2b43c3d",
     "extract_dir": "PA_Green",
     "license": "unknown",
     "bin": [
