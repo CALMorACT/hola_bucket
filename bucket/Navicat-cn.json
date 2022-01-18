@@ -1,16 +1,16 @@
 {
-    "version": "16.0.9",
+    "version": "15.0.28",
     "homepage": "https://www.navicat.com.cn",
     "license": "https://help.navicat.com/hc/zh-cn/sections/204016338-%E8%AE%B8%E5%8F%AF%E8%AF%81",
     "description": "More powerful. Made to visualize data and insights. Enhanced for complete flexibility.",
     "architecture": {
         "64bit": {
             "url": "https://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe",
-            "hash": "4f145c40bf3a63e0f41ffa63eda38131273995df31ede198807f3638553fea1f"
+            "hash": "bc6ae5e5ac84e22984267da1af53e507db1a2fb75bb4d6b8d4d722aba3db14af"
         },
         "32bit": {
             "url": "https://download.navicat.com.cn/download/navicat150_premium_cs_x86.exe",
-            "hash": "f0f2ae912c5ebd78c71e548276fe48995b9604ce33a192469ca205d500f4b423"
+            "hash": "3c51be4532f0d1e06523fe7c8426b7f784ce6d893998cab865d1529c2d63a607"
         }
     },
     "innosetup": true,
