@@ -1,5 +1,5 @@
 {
-    "version": "2021-09-14",
+    "version": "2022-01-30",
     "homepage": "https://support.huaweicloud.com/browsertg-obs/obs_03_1000.html",
     "architecture": {
         "32bit": {
@@ -23,7 +23,12 @@
         "url": "https://support.huaweicloud.com/browsertg-obs/obs_03_1026.html",
         "regex": "(20\\d+-\\d+-\\d+)"
     },
-    "shortcuts": [["obs-browser-plus.exe", "obs-browser-plus"]],
+    "shortcuts": [
+        [
+            "obs-browser-plus.exe",
+            "obs-browser-plus"
+        ]
+    ],
     "autoupdate": {
         "architecture": {
             "32bit": {
