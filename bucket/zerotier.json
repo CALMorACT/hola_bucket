@@ -7,7 +7,7 @@
     },
     "homepage": "https://www.zerotier.com/",
     "description": "Easily connect cloud, mobile, desktop, and data center resources anywhere.",
-    "hash": "656891485ff9d132616323ea5812ec4ee63440c6f10427e3b9214c648f682d0f",
+    "hash": "b1d95da767343880f6fa12e5858f51304379b9605a6d9a4f6fbcf8588cc5d10f",
     "checkver": {
         "url": "https://www.zerotier.com/download/",
         "re": "Latest Version:\\s*([\\d.]+)"
