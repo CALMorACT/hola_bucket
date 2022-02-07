@@ -1,7 +1,7 @@
 {
-    "version": "1.1.4",
-    "url": "https://github.com/Serial-Studio/Serial-Studio/releases/download/v1.1.4/SerialStudio-1.1.4-Windows.exe#dl.7z",
-    "hash": "be476f2db5bfe4f5b53588be01422f741e85170a144a74b4f447e6f2d21580f4",
+    "version": "1.1.6",
+    "url": "https://github.com/Serial-Studio/Serial-Studio/releases/download/v1.1.6/SerialStudio-1.1.6-Windows.exe#dl.7z",
+    "hash": "361506e868280e218641f201d38cee0a416404659b00b3951989d83ca6d692fd",
     "description": "Multi-purpose serial data visualization & processing program",
     "homepage": "https://github.com/Serial-Studio/Serial-Studio",
     "license": {
