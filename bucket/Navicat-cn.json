@@ -5,12 +5,12 @@
     "description": "More powerful. Made to visualize data and insights. Enhanced for complete flexibility.",
     "architecture": {
         "64bit": {
-            "url": "https://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe",
-            "hash": "bc6ae5e5ac84e22984267da1af53e507db1a2fb75bb4d6b8d4d722aba3db14af"
+            "url": "https://www.navicat.com.cn/download/direct-download?product=navicat_premium_cs_x64.exe&location=1",
+            "hash": "c6958ba2e27bddc3d3515b6cf1617cda6a4c0cf4f66b6a075847e87fe2fa71e7"
         },
         "32bit": {
-            "url": "https://download.navicat.com.cn/download/navicat150_premium_cs_x86.exe",
-            "hash": "3c51be4532f0d1e06523fe7c8426b7f784ce6d893998cab865d1529c2d63a607"
+            "url": "https://www.navicat.com.cn/download/direct-download?product=navicat_premium_cs_x86.exe&location=1",
+            "hash": "637b494ac172b3bb5746d2a7563e311bd0d70f1d26e7cbd81fc94eef9b5cf167"
         }
     },
     "innosetup": true,
@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe"
+                "url": "https://www.navicat.com.cn/download/direct-download?product=navicat_premium_cs_x64.exe&location=1"
             },
             "32bit": {
-                "url": "https://download.navicat.com.cn/download/navicat150_premium_cs_x86.exe"
+                "url": "https://www.navicat.com.cn/download/direct-download?product=navicat_premium_cs_x86.exe&location=1"
             }
         }
     },
