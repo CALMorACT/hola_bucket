@@ -1,0 +1,46 @@
+{
+    "version": "2.0.2",
+    "homepage": "https://www.apifox.cn/",
+    "description": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.apifox.cn/download/Apifox-windows-latest.zip",
+            "hash": "46b5f1a9dbc321c4552d3fd4507dd5d37480b22ef3bf36a54f87fcbd8b979ba7",
+            "pre_install": [
+                "Move-Item \"$dir/*.exe\" \"$dir/Setup.7z\"",
+                "Expand-7zipArchive \"$dir\\Setup.7z\" \"$dir\"",
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir/`$PLUGINSDIR\", \"$dir/Setup.7z\" -Recurse -Force"
+            ]
+        },
+        "32bit": {
+            "url": "https://cdn.apifox.cn/download/Apifox-win32-latest.zip",
+            "hash": "d40fdc36e6a0bc5c2a13edfcc82d00eab81d730adad32e6bc2cffca4b38a42bf",
+            "pre_install": [
+                "Move-Item \"$dir/*.exe\" \"$dir/Setup.7z\"",
+                "Expand-7zipArchive \"$dir\\Setup.7z\" \"$dir\"",
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                "Remove-Item \"$dir/`$PLUGINSDIR\", \"$dir\\Setup.7z\" -Recurse -Force"
+            ]
+        }
+    },
+    "uninstaller": {
+        "file": "Uninstall Apifox.exe"
+    },
+    "bin": [["Apifox.exe", "Apifox"]],
+    "shortcuts": [["Apifox.exe", "Apifox"]],
+    "checkver": {
+        "url": "https://www.apifox.cn/help/app/changelog",
+        "re": "a> ([\\d.]+)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn.apifox.cn/download/Apifox-windows-latest.zip"
+            },
+            "32bit": {
+                "url": "https://cdn.apifox.cn/download/Apifox-windows-32bit.zip"
+            }
+        }
+    }
+}
