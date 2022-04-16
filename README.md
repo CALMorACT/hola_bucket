@@ -11,4 +11,4 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/vxi9jrgfs91rn3up/branch/master?svg=true)](https://ci.appveyor.com/project/hola/hola-bucket/branch/master)
 
-`scoop bucket add hola_bucket https://github.com/CALMorACT/hola_bucket.git`
+`scoop bucket add hola-bucket https://github.com/CALMorACT/hola_bucket.git`
