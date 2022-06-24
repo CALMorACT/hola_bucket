@@ -1,0 +1,19 @@
+{
+    "version": "2.27",
+    "homepage": "https://home.edgeless.top/",
+    "url": "https://pineapple.edgeless.top/disk/Socket/Hub/Edgeless%20Hub_Beta_2.27.7z",
+    "hash": "95cf44054167d51fc5a11e7714ea3f42ba967489291d1b4d4d8971db9a7944b8",
+    "shortcuts": [
+        [
+            "./Edgeless Hub/edgeless-hub.exe",
+            "edgeless-hub"
+        ]
+    ],
+    "checkver": {
+        "url": "https://wiki.edgeless.top/v2/global/log.html#%E5%BC%80%E5%8F%91%E7%8A%B6%E6%80%81",
+        "re": "([\\d.]+)版本更新"
+    },
+    "autoupdate": {
+        "url": "https://pineapple.edgeless.top/disk/Socket/Hub/Edgeless%20Hub_Beta_$version.7z"
+    }
+}
