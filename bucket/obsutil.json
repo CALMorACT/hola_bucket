@@ -1,8 +1,8 @@
 {
-    "version": "5.3.4",
+    "version": "5.4.6",
     "homepage": "https://support.huaweicloud.com/utiltg-obs/obs_11_0001.html",
     "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsutil_windows_amd64.zip",
-    "hash": "769c99b256c4443646ed0958a8a12a7c0c455e1c128448d7b81779a09f8bf0c3",
+    "hash": "f3a4b5954d03d02db97e10bd52c9d1cbc08113e4051c9fc78524567922374d8c",
     "license": "Freeware",
     "bin": [
         [
