@@ -1,18 +1,18 @@
 {
-    "version": "2.4.1",
+    "version": "3.1.1",
     "homepage": "https://arctime.org/",
     "license": "unknown",
     "description": "Simple, powerful and efficient multi-platform subtitling software",
     "architecture": {
         "64bit": {
             "url": "https://t.arctime.cn/ap2w64",
-            "hash": "5ace2b790f4c7a0f239fda49c77d3f504f6983fef8794a0d02076b0fc3544a51",
-            "extract_dir": "ARCTIME_PRO_2.4.1_WIN64"
+            "hash": "d4859bd52026ab0ec104de030e60e9e864495bce449999b243969fa145a51d07",
+            "extract_dir": "ARCTIME_PRO_3.1.1_WIN64"
         },
         "32bit": {
             "url": "https://t.arctime.cn/ap2w",
-            "hash": "cb141910666039f39ddaff565f253481db033f04193e393f8ec14a473e2898eb",
-            "extract_dir": "ARCTIME_PRO_2.4.1_WIN32"
+            "hash": "44561a0f51d7be7204bb6bad540931c73385df85b7e15ef574c34e51e393e6fe",
+            "extract_dir": "ARCTIME_PRO_3.1.1_WIN32"
         }
     },
     "bin": [
