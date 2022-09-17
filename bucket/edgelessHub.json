@@ -1,8 +1,8 @@
 {
-    "version": "2.27",
+    "version": "2.28",
     "homepage": "https://home.edgeless.top/",
-    "url": "https://pineapple.edgeless.top/disk/Socket/Hub/Edgeless%20Hub_Beta_2.27.7z",
-    "hash": "95cf44054167d51fc5a11e7714ea3f42ba967489291d1b4d4d8971db9a7944b8",
+    "url": "https://pineapple.edgeless.top/disk/Socket/Hub/Edgeless%20Hub_Beta_2.28.7z",
+    "hash": "7ea75809bc3765ae9cebda334ecf43ab1465982331abe27ba3cf993762b01e18",
     "shortcuts": [
         [
             "./Edgeless Hub/edgeless-hub.exe",
