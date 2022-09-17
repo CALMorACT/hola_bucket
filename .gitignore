@@ -1,3 +1,5 @@
+*~
+._*
 /checkver*
-/.cache/
-/.vagrant/
+.idea
+*.iml

@@ -5,7 +5,7 @@
     "license": "GPL-3.0-or-later",
     "url": [
         "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202207062212/rules.zip",
-        "https://github.com/CALMorACT/hola_bucket/raw/master/test/v2ray-rules-search.ps1"
+        "https://github.com/CALMorACT/hola_bucket/raw/master/scripts/v2ray-rules-search.ps1"
     ],
     "hash": [
         "bad0e2f7fee04867a1287e583fac5f50c2bae08ffc9eab25f81a935ed93203c8",
