@@ -1,14 +1,14 @@
 {
-    "version": "1.4.5",
+    "version": "1.4.8",
     "homepage": "https://github.com/troyeguo/koodo-reader",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/troyeguo/koodo-reader/releases/download/v1.4.5/Koodo-Reader-1.4.5-x64-Win.zip",
-            "hash": "d769e5c384e3d697014666efbc0b05d5a348eab2369ff2b7a0bb2dde3f2dc307"
+            "url": "https://github.com/troyeguo/koodo-reader/releases/download/v1.4.8/Koodo-Reader-1.4.8-x64-Win.zip",
+            "hash": "228b57f7fdb8e9784335a0d966c270c3366de991b0b794969f3620ad809eba7a"
         },
         "32bit": {
-            "url": "https://github.com/troyeguo/koodo-reader/releases/download/v1.4.5/Koodo-Reader-1.4.5-ia32-Win.zip",
-            "hash": "c0d63d261ba25fab1eece1638a1606c34f4016c4c8d68c179dddd31e4afbac51"
+            "url": "https://github.com/troyeguo/koodo-reader/releases/download/v1.4.8/Koodo-Reader-1.4.8-ia32-Win.zip",
+            "hash": "488014599d79776bcc9521555e1d5da71e3cd53708da801bd9f00b933f5229fd"
         }
     },
     "license": "AGPL-3.0",
