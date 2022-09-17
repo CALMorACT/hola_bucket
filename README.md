@@ -9,6 +9,6 @@
 
 # hola_bucket
 
-[![Build status](https://ci.appveyor.com/api/projects/status/vxi9jrgfs91rn3up/branch/master?svg=true)](https://ci.appveyor.com/project/hola/hola-bucket/branch/master)
+[![Tests](https://github.com/CALMorACT/hola_bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/CALMorACT/hola_bucket/actions/workflows/ci.yml) [![Excavator](https://github.com/CALMorACT/hola_bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/CALMorACT/hola_bucket/actions/workflows/excavator.yml)
 
 `scoop bucket add hola-bucket https://github.com/CALMorACT/hola_bucket.git`
