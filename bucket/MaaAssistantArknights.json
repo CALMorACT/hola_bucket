@@ -1,0 +1,21 @@
+{
+    "version": "4.6.13",
+    "homepage": "https://github.com/MaaAssistantArknights/MaaAssistantArknights",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v4.6.13/MAA-v4.6.13-win-x64.zip",
+            "hash": "11ffef989053e5a9549efcc20b10a3d732a7e597745ab2d2bc3520644e8c165a"
+        }
+    },
+    "shortcuts": [["MeoAsstGui.exe", "MeoAsstGui"]],
+    "checkver": {
+        "github": "https://github.com/MaaAssistantArknights/MaaAssistantArknights"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v$version/MAA-v$version-win-x64.zip"
+            }
+        }
+    }
+}
