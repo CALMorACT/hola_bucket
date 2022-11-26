@@ -13,6 +13,7 @@
             "MeoAsstGui"
         ]
     ],
+    "persist": "gui.json",
     "checkver": {
         "github": "https://github.com/MaaAssistantArknights/MaaAssistantArknights"
     },
