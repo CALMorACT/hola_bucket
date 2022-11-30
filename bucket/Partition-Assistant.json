@@ -12,6 +12,12 @@
             "partition"
         ]
     ],
+    "pre_install":[
+        "$file='usecode.ini'",
+        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "    New-Item \"$dir\\$file\" -Type File | Out-Null",
+        "}"
+    ],
     "persist": "usecode.ini",
     "shortcuts": [
         [

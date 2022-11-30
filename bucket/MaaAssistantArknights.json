@@ -13,6 +13,12 @@
             "MeoAsstGui"
         ]
     ],
+    "pre_install":[
+        "$file='gui.json'",
+        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "    New-Item \"$dir\\$file\" -Type File | Out-Null",
+        "}"
+    ],
     "persist": "gui.json",
     "checkver": {
         "github": "https://github.com/MaaAssistantArknights/MaaAssistantArknights"

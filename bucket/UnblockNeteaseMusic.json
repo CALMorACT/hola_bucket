@@ -16,7 +16,7 @@
         "Remove-Item \"$dir/UnblockNeteaseMusic-$version\""
     ],
     "post_install": [
-        " $test_directory = [System.IO.Path]::Combine([Environment]::GetFolderPath('startmenu'), 'Programs', 'Scoop Apps')",
+        "$test_directory = [System.IO.Path]::Combine([Environment]::GetFolderPath('startmenu'), 'Programs', 'Scoop Apps')",
         "$music_icon = [System.IO.Path]::Combine($(appdir neteasemusic), 'current', 'resource', 'format.ico')",
         "$music_icon = New-Object System.IO.FileInfo($music_icon)",
         "$wsShell = New-Object -ComObject WScript.Shell",
