@@ -9,8 +9,8 @@
     },
     "shortcuts": [
         [
-            "MeoAsstGui.exe",
-            "MeoAsstGui"
+            "MAA.exe",
+            "MAA"
         ]
     ],
     "pre_install": [
