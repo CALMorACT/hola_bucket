@@ -1,10 +1,10 @@
 {
-    "version": "4.8.3",
+    "version": "4.8.4",
     "homepage": "https://github.com/MaaAssistantArknights/MaaAssistantArknights",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v4.8.3/MAA-v4.8.3-win-x64.zip",
-            "hash": "28a3fbc2fb9ce15223024046b26735f343dd5f5c8783dba871ab72e69abfbaa5"
+            "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v4.8.4/MAA-v4.8.4-win-x64.zip",
+            "hash": "01da7873b47834e8dcde59187572d4423418325e78312790fd15b26eda15e2f6"
         }
     },
     "shortcuts": [
